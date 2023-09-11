@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="flex justify-center gap-3 h-[710px] w-full bg-black">
+        <div class="bg-[#ccc] h-[270px] w-[250px] mt-10 rounded-2xl">
+            <div class=" flex justify-between pl-5 pt-2">
+                <h2 class="flex items-center font-bold">TODO</h2>
+                <span class="pr-[15px] text-xl">...</span>
+            </div>
+        <div class="list item drag-start w-[215px] h-[170px] mx-[15px]">
+            <div class="HTML w-[215px] h-8 bg-white mt-[15px] rounded-xl" draggable="true">
+                <span class="pl-2.5">Build HTML</span>
+            </div>
+            <div class="w-[215px] h-8 bg-white mt-[15px] rounded-xl" draggable="true">
+                <span class="pl-2.5">Build CSS</span>
+            </div>
+            <div class="w-[215px] h-8 bg-white mt-[15px] rounded-xl" draggable="true">
+                <span class="pl-2.5">Build JS</span>
+            </div>
+            <div class="w-[215px] h-8 bg-white mt-[15px] rounded-xl" draggable="true">
+                <span class="pl-2.5">Build React</span>
+            </div>
+        </div>
+            <div class="w-[215px] h-8 mx-[15px] mt-[15px] rounded-xl flex justify-between">
+                <i class="fa-solid fa-plus" style="color: #0a0a0a;"></i>
+                <span class="pl-7 absolute">Add a card</span>
+                <i class="fa-regular fa-address-card"></i>
+            </div>
+        </div>
+        <div class="bg-[#ccc] h-[270px] w-[250px] mt-10 rounded-2xl">
+            <div class="flex justify-between pl-5 pt-2">
+                <h2 class="pl-2.5 flex items-center font-bold">In Progress</h2>
+                <span class="pr-[15px] text-xl">...</span>
+            </div>
+            <div class="list item w-[215px] h-[170px] mx-[15px]"></div>
+            <div class="w-[215px] h-8 mx-[15px] mt-[15px] rounded-xl flex justify-between">
+                <i class="fa-solid fa-plus" style="color: #0a0a0a;"></i>
+                <span class="pl-7 absolute">Add a card</span>
+                <i class="fa-regular fa-address-card"></i>
+            </div>
+        </div>
+        <div class="bg-[#ccc] h-[270px] w-[250px] mt-10 rounded-2xl">
+            <div class="flex justify-between pl-5 pt-2">
+                <h2 class="pl-2.5 flex items-center font-bold">Done</h2>
+                <span class="pr-[15px] text-xl">...</span>
+            </div>
+            <div class="list item w-[215px] h-[170px] mx-[15px]"></div>
+            <div class="w-[215px] h-8 mx-[15px] mt-[15px] rounded-xl flex justify-between">
+                <i class="fa-solid fa-plus" style="color: #0a0a0a;"></i>
+                <span class="pl-7 absolute">Add a card</span>
+                <i class="fa-regular fa-address-card"></i>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="main.js"></script>
+</html>
